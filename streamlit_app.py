@@ -11,6 +11,7 @@ import pandas as pd             # DataFrame construction for prediction input
 import matplotlib.pyplot as plt # Matplotlib figures embedded in Streamlit
 import matplotlib.patches as mpatches
 import json                     # Reading stored classification report
+import joblib                   # For loading model and scaler artifacts
 
 # ── 4.2  PAGE CONFIGURATION & DOCUMENT TITLE ─────────────────────────────────
 st.set_page_config(
