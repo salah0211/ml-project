@@ -1,0 +1,101 @@
+{
+  "Logistic Regression": {
+    "Normal": {
+      "precision": 0.7708830548926014,
+      "recall": 0.9847560975609756,
+      "f1-score": 0.8647925033467202,
+      "support": 328.0
+    },
+    "Suspect": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 59.0
+    },
+    "Pathologic": {
+      "precision": 0.14285714285714285,
+      "recall": 0.02564102564102564,
+      "f1-score": 0.043478260869565216,
+      "support": 39.0
+    },
+    "accuracy": 0.7605633802816901,
+    "macro avg": {
+      "precision": 0.30458006591658143,
+      "recall": 0.33679904106733377,
+      "f1-score": 0.3027569214054285,
+      "support": 426.0
+    },
+    "weighted avg": {
+      "precision": 0.6066222313995349,
+      "recall": 0.7605633802816901,
+      "f1-score": 0.6698300311540781,
+      "support": 426.0
+    }
+  },
+  "Random Forest": {
+    "Normal": {
+      "precision": 0.7688679245283019,
+      "recall": 0.9939024390243902,
+      "f1-score": 0.8670212765957447,
+      "support": 328.0
+    },
+    "Suspect": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 59.0
+    },
+    "Pathologic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 39.0
+    },
+    "accuracy": 0.7652582159624414,
+    "macro avg": {
+      "precision": 0.2562893081761006,
+      "recall": 0.3313008130081301,
+      "f1-score": 0.28900709219858156,
+      "support": 426.0
+    },
+    "weighted avg": {
+      "precision": 0.5919922048011339,
+      "recall": 0.7652582159624414,
+      "f1-score": 0.6675656777544702,
+      "support": 426.0
+    }
+  },
+  "KNN": {
+    "Normal": {
+      "precision": 0.763855421686747,
+      "recall": 0.9664634146341463,
+      "f1-score": 0.8532974427994616,
+      "support": 328.0
+    },
+    "Suspect": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 59.0
+    },
+    "Pathologic": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 39.0
+    },
+    "accuracy": 0.744131455399061,
+    "macro avg": {
+      "precision": 0.25461847389558234,
+      "recall": 0.32215447154471544,
+      "f1-score": 0.2844324809331539,
+      "support": 426.0
+    },
+    "weighted avg": {
+      "precision": 0.5881328129419086,
+      "recall": 0.744131455399061,
+      "f1-score": 0.656998970042778,
+      "support": 426.0
+    }
+  }
+}
